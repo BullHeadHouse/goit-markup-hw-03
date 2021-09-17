@@ -208,7 +208,13 @@ p {
 
 /* Footer */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--hero-footer-bgc);
+}
+.logo-footer {
+  margin-bottom: 20px;
+  display: inline-block;
 }
 .address,
 .street-address {
@@ -221,6 +227,9 @@ p {
 }
 .addlinks .link {
   color: var(--footerlink-color);
+}
+.addlink {
+  margin-bottom: 9px;
 }
 .addlinks .street-address:hover,
 .addlinks .street-address:focus,
