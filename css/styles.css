@@ -24,8 +24,32 @@ body {
 .clearline {
   text-decoration: none;
 }
+
 ul {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container {
+  margin: 0 auto;
+
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  /* background-color: lightcoral; */
 }
 
 /* Header */
@@ -62,15 +86,21 @@ ul {
 /* Studio Main */
 /* Hero */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: var(--hero-footer-bgc);
+
+  text-align: center;
 }
 .hero-title {
+  margin-bottom: 30px;
+
   color: var(--white-color);
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -84,6 +114,12 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
+
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  min-width: 200px;
+  padding: 10px 32px;
 }
 .button.primary {
   background-color: var(--accent-color);
@@ -91,17 +127,31 @@ ul {
 }
 
 /* Qualities */
+.qualities {
+  padding-top: 87px;
+  padding-bottom: 101px;
+}
 .quality-title {
   font-weight: var(--weight-bold);
   text-transform: uppercase;
+
+  margin-bottom: 10px;
 }
 .quality {
   color: var(--secondary-text-color);
   line-height: 1.71;
 }
 
+/* Work process */
+.work-process {
+  padding-bottom: 94px;
+}
+
 /* Team */
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
   background-color: var(--background-color);
 }
 .team-member {
@@ -115,6 +165,8 @@ ul {
   line-height: 1.19;
 }
 .section-title {
+  margin-bottom: 50px;
+
   font-weight: var(--weight-bold);
   font-size: 36px;
   line-height: 1.17;
